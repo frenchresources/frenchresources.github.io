@@ -24,7 +24,7 @@ function code() {
     else if (choice == 'in') p2 = 0.0254;
     
     let raw_weight = Number(document.getElementById('m').value);
-    let raw_height = Number(document.getElementById('h').value)
+    let raw_height = Number(document.getElementById('h').value);
     let weight = raw_weight * p1;
     let height = raw_height * p2;
     let bmi = weight / (height * height);
